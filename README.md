@@ -21,6 +21,17 @@
   - 有regular test跟table test
   - 可以參考`1903_largest-odd-number-in-string_test.go`看看如何使用table test
 
+### 無法使用testify?
+
+某些版本的GoLand預設新專案沒有開啟go mod支援（真的嚇到我了），所以即使`go mod init leetcode`產出go.mod，然後`go get github.com/stretchr/testify` ，GoLand仍然無法吃到。
+
+- 打開Preference
+- 打開Go
+- 點入Go Module
+- 打開**Enable Go Module Integration**
+
+按照正常流程`go get github.com/stretchr/testify` 應該就能用了。
+
 ### Custom Template參考
 
 ```text
