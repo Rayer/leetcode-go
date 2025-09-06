@@ -20,6 +20,7 @@
   - 這個template有提供可以直接執行的test method，通常在ide上該函數左邊都有個▶️可以直接按下去。
   - 有regular test跟table test
   - 可以參考`1903_largest-odd-number-in-string_test.go`看看如何使用table test
+- Custom Teimpate裡面的FilenName建議使用 `${q.frontendQuestionId}_${q.titleSlug}_test`
 
 ### 無法使用testify?
 
